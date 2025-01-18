@@ -33,21 +33,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-import streamlit as st
 
-def navigate_to_page(page_name):
-    st.session_state.current_page = page_name
-
-if "current_page" not in st.session_state:
-    st.session_state.current_page = "About_Us"  # Set default page
-
-if st.session_state.current_page == "About_Us":
-    st.title("About Us")
-    st.button("Go to Charts", on_click=navigate_to_page, args=("Charts",))
-
-elif st.session_state.current_page == "Charts":
-    st.title("Charts")
-    # Add your chart plotting code here
-    st.button("Go to About Us", on_click=navigate_to_page, args=("About_Us",))
 
 
