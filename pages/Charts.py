@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np 
+
 
 def navigate_to_tab(tab_name):
     st.session_state.current_tab = tab_name
