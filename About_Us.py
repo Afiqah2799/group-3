@@ -1,6 +1,9 @@
 import streamlit as st
 import numpy as np 
 
+if not hasattr(np, 'bool8'):
+    np.bool8 = np.bool_ 
+
 
 st.set_page_config(
     page_title='shrdc day4'
@@ -32,7 +35,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
 
