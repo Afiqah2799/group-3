@@ -27,9 +27,7 @@ def main():
         st.image("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1ebd221d-3581-4775-8f4c-086c377bc4c3/dh21yyg-13113c8c-055f-4fb6-b152-7bdca2c20e26.png/v1/fill/w_1280,h_854/inside_out_2_envy_png_by_docbuffflash82_dh21yyg-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvMWViZDIyMWQtMzU4MS00Nzc1LThmNGMtMDg2YzM3N2JjNGMzXC9kaDIxeXlnLTEzMTEzYzhjLTA1NWYtNGZiNi1iMTUyLTdiZGNhMmMyMGUyNi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-XGge6hqWTgTAZYiUUWARfJOiEe7JAbmXwlbLeL7PWo", width=200)  # Replace with the actual path to Member 1's photo
         st.write("**Contact:** anizizzati178@gmail.com")
 
-    st.write("---")
-    st.write("**Our Mission:** [Insert your group's mission statement here]")
-    st.write("**Our Goals:** [Insert your group's goals here]")
+   
 
 if __name__ == "__main__":
     main()

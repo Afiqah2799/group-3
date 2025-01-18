@@ -103,6 +103,11 @@ def create_chart_page():
             sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=.5, ax=ax)
             plt.title('Correlation Between Diseases and ICU Admission (ICU Cases)')
             return fig
+            # Display the chart in Streamlit
+        fig = plot_corr_heatmap(df.copy())
+        st.pyplot(fig)
+
+
     
     with tab4:
 
